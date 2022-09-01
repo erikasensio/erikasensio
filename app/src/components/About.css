@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Jost:wght@500&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 .bgAbout {
-    background-color: rgb(31, 31, 31);
-    height: 450px;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,13 +9,14 @@
 }
 
 .aboutTitle{
-    color:#99ffa5;
-    font-family: "Nunito Sans";
-    font-weight: 900;
+    color:white;
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: 600;
 }
 .aboutText{
     color: white;
-    font-family: "Nunito Sans";
+    font-family: "Open Sans";
     text-align: left;
     margin:10px 0px;
 }
@@ -26,17 +25,17 @@
     display: flex;
     gap:30px;
 }
+
 .aboutButton {
-    font-family: "Nunito Sans";
-    font-weight: 800;
-    background-color: #99ffa5;
-    color: black;
-    width: 120px;
-    height: 30px;
-    padding: 20px;
-    margin: 20px 0px;
+    font-family: "Open Sans";
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #ff4c4c;
+    color: #ddd;
+    padding: 10px 25px;
+    margin-top: 40px;
     border: none;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +43,9 @@
     text-decoration: none;
 }
 .aboutInfo{
-    padding: 30px;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 22px;
     display: flex;
     flex-direction: column;
     justify-content: center;
