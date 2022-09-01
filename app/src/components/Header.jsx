@@ -14,7 +14,7 @@ function Header() {
     }
 
     return <div className="header">
-        <a className="logo" target="_blank" rel="noreferrer" href="http://preview.themeforest.net/item/alison-portfolio-html-template/full_screen_preview/23151102" onClick={handleNavHome}>Erik Asensio - Full Stack Developer</a>
+        <a className="logo" href="#" onClick={handleNavHome}>Erik Asensio - Full Stack Developer</a>
         {/* <img className="hamburgerMenu" src={hamMenu} alt="" onClick={handleOpenMenu} /> */}
     </div>
 }

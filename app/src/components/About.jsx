@@ -14,8 +14,8 @@ function About() {
                 <br/><br/>
                     I love team-working, I think that being able to explain and make others understand is the best way to lay down a concept.</p>
                 <div className="aboutButtons">
-                    <a href={englishCV} className="aboutButton">DOWNLOAD ENGLISH CV</a>
-                    <a href={spanishCV} className="aboutButton">DOWNLOAD SPANISH CV</a>
+                    <a target="_blank" href={englishCV} className="aboutButton">DOWNLOAD ENGLISH CV</a>
+                    <a target="_blank" href={spanishCV} className="aboutButton">DOWNLOAD SPANISH CV</a>
                 </div>
             </div>
             <div className="aboutBigImage">
