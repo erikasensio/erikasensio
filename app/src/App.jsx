@@ -1,6 +1,6 @@
 import "./App.css"
 import Header from "./components/Header"
-import Hero from "./components/Hero"
+// import Hero from "./components/Hero"
 import About from "./components/About"
 import Skills from "./components/Skills"
 // import Portfolio from "./components/Portfolio"
@@ -12,7 +12,7 @@ function App() {
     return <div className="app">
         <div className="appHeader">
             <Header />
-            <Hero />
+            {/* <Hero /> */}
             <About />
             <Skills /> 
             {/* <Portfolio /> */}
