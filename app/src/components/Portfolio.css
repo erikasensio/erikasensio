@@ -86,7 +86,9 @@
         grid-template-columns: repeat(3,1fr);
 
     }
-
+    .portfolioText{
+        font-size: 15px;
+    }
     .portfolioSection {
         grid-column: 1/2;
     }
