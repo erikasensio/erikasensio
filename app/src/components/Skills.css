@@ -47,6 +47,9 @@
         grid-template-columns: repeat(3,1fr);
         gap: 15px;
     }
+    .bgSkills{
+        padding: 50px;
+    }
     .skillsContainer-text{
         font-size: 15px;
     }
